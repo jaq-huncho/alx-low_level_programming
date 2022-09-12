@@ -13,11 +13,9 @@ int main(void)
 	i = 10;
 	k = 'a';
 
-	while
-		(i < 10) {
-			putchar(i + '0');
-			i++;
-		}
+	for (i =  0; i <= 10; i++)
+		putchar(i);
+
 	while
 		(k <= 'f') {
 			putchar(k);
