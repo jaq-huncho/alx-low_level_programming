@@ -6,21 +6,21 @@
  */
 int main(void)
 {
-	int p;
+	char p;
 
-	char i;
+	int i;
 
-	p = 10;
-	i = 'a';
+	p = 'a';
+	i = 0;
 	while
-		(p < 10) {
-			putchar(p + '0');
-			p++;
+		(i < 10) {
+			putchar(i + '0');
+			i++;
 		}
 	while
-		(i <= 'f') {
-			putchar(i);
-			i++;
+		(p <= 'f') {
+			putchar(p);
+			p++;
 		}
 	return (0);
 }
