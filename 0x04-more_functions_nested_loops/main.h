@@ -2,16 +2,17 @@
 #define MAIN_H
 
 /**
- *main - header files for prototypes
- *int prototypes (int)
- *void prototypes (void)
+ * main - header files for protototypes
+ * void prototypes (void)
+ * int prototypes (int)
  */
 
-int _isupper(int c);
 int _isdigit(int c);
+int _isupper(int c);
 int mul(int a, int b);
+int _putchar(char c);
 void print_numbers(void);
-void print_most_numbers(void);
+int print_most_numbers(void);
 void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
