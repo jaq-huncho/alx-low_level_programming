@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 
 /**
  *reset_to_98 -> function that reassigns a pointer
