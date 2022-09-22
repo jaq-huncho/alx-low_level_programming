@@ -4,7 +4,7 @@
  * parameter
  * @n: parameter
  * Return: returns nothing
- */rm 100
+ */
 void print_time_table(int n)
 {
 	int i, j, k;
