@@ -13,10 +13,14 @@ void print_time_table(int n)
 	{
 		for (i = 0; i <= n; i++)
 		{
-			_putchar('0')
+			_putchar('0');
+			{
 				for (j = 1; j <= n; j++)
+				{
 					_putchar(',');
+				}
 			_putchar(' ');
+				}
 			k = i * j;
 			if  (k <= 99)
 				_putchar(' ');
@@ -29,7 +33,7 @@ void print_time_table(int n)
 			}
 			else if (k <= 99 && k >= 10)
 			{
-				_putchar((results / 10) + 'o');
+				_putchar((k / 10) + 'o');
 			}
 			_putchar('\n');
 		}
