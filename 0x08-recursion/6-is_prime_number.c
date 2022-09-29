@@ -28,17 +28,11 @@ int is_prime_number(int n)
 
 
 /**
-
  * is_prime - returns the 1 if n is prime
-
  * @n: number to be checked
-
  * @start: number to start checking from
-
  *
-
  * Return: 1 if n is prime, 0 otherwise
-
  */
 
 int is_prime(int n, int start)
